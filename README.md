@@ -157,6 +157,15 @@ Will return true or false, based on a signed header from Zipmark.
 
 Valid callbacks contain events, object types and objects.  The below functions will return their respective values/objects, or null if the callback is invalid.
 
+#### JWT Dependancy
+
+The `JWT` and `httpclient` gems are required for some features as a dependancy. Add them to your gemfile if you run into issues related to these dependancies.
+
+```ruby
+gem "jwt"
+gem "httpclient"
+```
+
 ## API Documentation
 
 Please see the [Zipmark API](https://dev.zipmark.com) or contact Zipmark Support via [email](mailto:developers@zipmark.com) or [chat](http://bit.ly/zipmarkAPIchat) for more information.
